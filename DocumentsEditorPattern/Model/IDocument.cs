@@ -9,7 +9,7 @@ namespace DocumentsEditorPattern.Model
     internal interface IDocument
     {
          string Name { get;  }
-         string Description { get; set; }
+       
          string GetFormat();
     }
 }

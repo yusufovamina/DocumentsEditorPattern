@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentsEditorPattern", "DocumentsEditorPattern\DocumentsEditorPattern.csproj", "{0EE9EAD2-F8E9-4D2F-BB06-CE6E1905D13F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DocumentsEditorPattern", "DocumentsEditorPattern\DocumentsEditorPattern.csproj", "{0EE9EAD2-F8E9-4D2F-BB06-CE6E1905D13F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

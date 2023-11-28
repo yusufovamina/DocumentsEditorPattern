@@ -8,9 +8,9 @@ namespace DocumentsEditorPattern.Model
 {
     internal class PDF : IDocument
     {
-        private readonly string _name;
+        private  string _name;
 
-        private readonly string _format;
+        
 
         public PDF(string name)
         {
@@ -18,9 +18,9 @@ namespace DocumentsEditorPattern.Model
 
         }
         public string Name => _name;
-        public string Description { get; set; }
 
-        public string GetFormat() => _format;
+        public string Format = "PDF";
+        public string GetFormat() => Format;
 
     }
 }
