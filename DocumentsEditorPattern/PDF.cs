@@ -4,22 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DocumentsEditorPattern.Model
+namespace DocumentsEditorPattern
 {
     internal class PDF : IDocument
     {
-        private  string _name;
-
-        
+        public string Name { get; set; }
+        public string Format => "PDF";
 
         public PDF(string name)
         {
-            _name = name;
-
+            Name = name;
         }
-        public string Name => _name;
-
-        public string Format = "PDF";
         public string GetFormat() => Format;
 
     }

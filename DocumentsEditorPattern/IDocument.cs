@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DocumentsEditorPattern.Model
+namespace DocumentsEditorPattern
 {
     internal interface IDocument
     {
-         string Name { get;  }
-       
-         string GetFormat();
+        
+            string Name { get; set; }
+            string Format { get; }
+        
+
+        string GetFormat();
     }
 }
