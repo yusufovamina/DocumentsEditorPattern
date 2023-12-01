@@ -25,32 +25,32 @@ namespace DocumentsEditorPattern
             public override void SaveDocument()
             {
                 Console.WriteLine($"Saving {document.Format} document {document.Name}");
-                // Логика сохранения графического документа
+                
             }
 
             public override void SaveDocumentAs(string newFileName)
             {
                 Console.WriteLine($"Saving {document.Format} document {document.Name} as {newFileName}");
                 document.Name = newFileName;
-                // Логика сохранения графического документа под новым именем
+           
             }
 
             public override void PrintDocument()
             {
                 Console.WriteLine($"Printing {document.Format} document {document.Name}");
-                // Логика печати графического документа
+                
             }
 
             public override void DrawShape(string shape)
             {
                 Console.WriteLine($"Drawing {shape} on {document.Format} document {document.Name}");
-                // Логика рисования формы на графическом документе
+                
             }
 
             public override void SelectTool(string tool)
             {
                 Console.WriteLine($"Selecting {tool} tool for {document.Format} document {document.Name}");
-                // Логика выбора инструмента на графическом документе
+                
             }
 
         public override void OpenDocument()

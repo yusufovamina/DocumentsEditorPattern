@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace DocumentsEditorPattern
 {
-    internal interface IGraphicDocument: IDocument
-    {
+    internal interface IGraphicDocument: IDocument { 
         public  void Draw();
     }
 

@@ -12,7 +12,7 @@ namespace DocumentsEditorPattern
 
         public string Format { get; set; }
 
-      public   string Content { get; set; }
+        public   string Content { get; set; }
 
         public string GetFormat() => Format;
         
